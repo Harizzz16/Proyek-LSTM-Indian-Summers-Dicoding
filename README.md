@@ -21,10 +21,29 @@ Tujuan dari proyek ini antara lain:
 
 Solution statements
 1. Solusi ini akan menggunakan model LSTM (Long short term memory network) untuk menganalisis data yang ada.
+
 Data Understanding
 Dataset ini terdiri atas satu dataset, yaitu Indian Summers - Over the years.csv. Dataset tersebut memiliki 13650 data dengan 20 kolom antara lain:
+1. City : Nama kota
+2. Date : Tanggal input data
+3. tempmax : Temperatur tertinggi di hari tersebut
+4. tempmin : Temperatur terrendah di hari tersebut
+5. temp : temperatur rata-rata harian
+6. feelslikemax : Temperatur yang dirasakan para warga secara subjektif pada saat temperatur tertinggi harian
+7. feelslikemin : Temperatur yang dirasakan para warga secara subjektif pada saat temperatur terrendah harian
+8. dew :
+9. humidity : kelembaban udara
+10. windspeed : kecepatan angin
+11. winddir :arah angin dalam derajat
+12. sealevelpressure : tekanan udara di daerah permukaan air laut
+13. cloudcover : tutupan awan
+14. visibility : keterlihatan/jarak pandang
+15. sunrise : waktu matahari terbit
+16. sunset :waktu matahari terbenam
+17. moonphase : fase bulan
+18. condition : kondisi cuaca dan langit
+19. description : deskripsi cuaca
 
-1. 
 Data Preparation
 
 
