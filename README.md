@@ -45,7 +45,15 @@ Dataset ini terdiri atas satu dataset, yaitu Indian Summers - Over the years.csv
 19. description : deskripsi cuaca
 
 Data Preparation
+Preparasi data dilakukan dengan tahapan sebagai berikut:
+1. Mengedrop data data yang memiliki parameter yang bernilai 0
+   Data sebelum dibersihkan adalah sebesar 13650 data.
 
+   Data tersebut memiliki data nol sebagai berikut.
+
+   Ini adalah hasil setelah melakukan dropna.
+   
+3. Memisahkan data latih dan data uji (Data latih 80%, data uji 20%).
 
 Modeling
 
