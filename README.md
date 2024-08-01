@@ -31,7 +31,7 @@ Dataset ini terdiri atas satu dataset, yaitu Indian Summers - Over the years.csv
 5. temp : temperatur rata-rata harian
 6. feelslikemax : Temperatur yang dirasakan para warga secara subjektif pada saat temperatur tertinggi harian
 7. feelslikemin : Temperatur yang dirasakan para warga secara subjektif pada saat temperatur terrendah harian
-8. dew :
+8. dew : Embun
 9. humidity : kelembaban udara
 10. windspeed : kecepatan angin
 11. winddir :arah angin dalam derajat
@@ -55,6 +55,8 @@ Preparasi data dilakukan dengan tahapan sebagai berikut:
    
 3. Memisahkan data latih dan data uji (Data latih 80%, data uji 20%).
 
+4. Membagi dataset menjadi beberapa jendela agar dapat dimasukkan ke dalam model
+   
 Modeling
 
 Evaluation
