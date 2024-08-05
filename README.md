@@ -50,13 +50,13 @@ Preparasi data dilakukan dengan tahapan sebagai berikut:
    Data sebelum dibersihkan adalah sebesar 13650 data.
 ![datakotor](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/data%20kotor.png)
    Data tersebut memiliki data nol sebagai berikut.
-
+![datanol](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/data%20na.png)
    Ini adalah hasil setelah melakukan dropna.
-   
+![databersih](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/data%20bersih.png)
 3. Memisahkan data latih dan data uji (Data latih 80%, data uji 20%).
-
+![splitdata](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/split%20data.png)
 4. Membagi dataset menjadi beberapa jendela agar dapat dimasukkan ke dalam model
-   
+![jendeladata](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/ini%20apalah.....png)   
 Modeling
 
 Evaluation
