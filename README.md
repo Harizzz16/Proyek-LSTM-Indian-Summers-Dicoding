@@ -48,7 +48,7 @@ Data Preparation
 Preparasi data dilakukan dengan tahapan sebagai berikut:
 1. Mengedrop data data yang memiliki parameter yang bernilai 0
    Data sebelum dibersihkan adalah sebesar 13650 data.
-
+![datakotor](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/data%20kotor.png)
    Data tersebut memiliki data nol sebagai berikut.
 
    Ini adalah hasil setelah melakukan dropna.
