@@ -58,7 +58,18 @@ Preparasi data dilakukan dengan tahapan sebagai berikut:
 4. Membagi dataset menjadi beberapa jendela agar dapat dimasukkan ke dalam model
 ![jendeladata](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/ini%20apalah.....png)   
 Modeling
-
+Modeling dilakukan dengan memasukkan data kedalam model dalam bentuk window dan size. Kali ini parameter ukuran jendela sebesar 64 dan ukuran batch sebesar 200.
+Adapun layer model yang digunakan adalah LSTM 64 dengan return sequences, LSTM 64, Dropout 0,5 (50% node dimatikan secara acak), dan dense masing masing 64 dengan aktivasi "relu", 32 dengan aktivasi "relu", dan dense 1.
+![Model](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/modeling.png)
+Lalu kita cari MAE (Mean Absolute Error) target. Seperti yang telah disampaikan di atas, target MAE yang ada adalah 10% dari skala data. Berikut ini adalah cara mencari nilai MAE
+![MAE](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/menetapkan%20MAE%20Sasaran.png)
+Lalu kita gunakan callbacks agar model bisa berhenti jika sudah mencapai targetnya
+![Callback](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/callback.png)
+Akhirnya kita run model kita
+![Compile](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/compile%20model.png)
 Evaluation
-
+Berikut ini Plot model loss dan MAE dari model machine learning ini.
+![PLOTLOSS](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/model%20plot.png)
+![PLOTMAE](https://github.com/Harizzz16/Proyek-LSTM-Indian-Summers-Dicoding/blob/main/plot%20mae.png)
+Dua gambar ini menunjukkan bahwa setiap epoch, ketelitian dari machine learning cenderung semakin baik dengan berkurangnya Loss dan MAE. Model berhenti setelah MAEnya sesuai dengan targetnya
 ---Ini adalah bagian akhir laporan---
